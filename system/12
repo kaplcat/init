@@ -1,0 +1,5 @@
+#du - estimate file space usage
+# -s - show only a total of each argument
+# -h - human readale format
+
+du -sh /var/*

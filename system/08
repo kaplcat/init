@@ -1,0 +1,5 @@
+#first of all u must generate keys!
+# ssh-keygen
+
+#it contains public keys
+~/.ssh/authorised_keys

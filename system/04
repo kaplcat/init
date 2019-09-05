@@ -1,0 +1,4 @@
+#This command gives a line privides information: 
+#current time/how long the system has been running/ho wmany user are currently logged on/the system load averages for the past 1,5,15 min
+
+uptime

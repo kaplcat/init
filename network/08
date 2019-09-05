@@ -1,0 +1,5 @@
+#Find the provider of slash16.org
+#nslookup slash16.org help to find out the IP, 
+#We can use command: whois 54.192.98.223 to find out the provider by IP address
+
+Amazon Technologies Inc.

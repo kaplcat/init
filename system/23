@@ -1,0 +1,5 @@
+#make the connection with nat or with loop connect to the VM with command:
+
+ssh username@ip (-p port)
+
+#and then enter password

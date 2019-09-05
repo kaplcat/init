@@ -1,0 +1,3 @@
+#if u want to run a command into background (u can continue using terminal, when terminal's session is clposed - the command ends), using & at the end
+
+tail -f /var/log/syslog &

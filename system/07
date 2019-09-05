@@ -1,0 +1,6 @@
+#ps - process status
+#a - show process of all users 
+#u - show owner of process
+#x - oriented on the user format that giver more column, incli=uding user id and CPU/memory usage 
+
+ps axu | awk '/SSHD/{print $2}'

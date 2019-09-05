@@ -1,0 +1,8 @@
+#!/bin/bash
+
+kill -9 $(ps -u $1 | awk '/sshd/{print $1}')
+deluser --remove-home $1
+
+#or --remove-all-files
+
+#use backup flag if u want to make a copy of all ur files 

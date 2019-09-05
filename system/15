@@ -1,0 +1,5 @@
+#if we know the name
+pkill tail
+
+#if we know PID
+#kill <PID>

@@ -1,0 +1,5 @@
+#Identify the IP address of the DNS that responds to the following url: slash16.org
+#The first line from command nslookup slash16.org contains the IP address of the DNS that responded.
+
+#command:
+nslookup slash.org | awk '/Server/{print $2}'

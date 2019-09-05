@@ -1,0 +1,3 @@
+#Format of network addresses is not important in current task. But netstat command works slowly without -n flag
+#command:
+netstat -rn | awk '/default/{print $2}' | sed 2d

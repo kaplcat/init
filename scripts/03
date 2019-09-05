@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "Enter a City :"
+read city 
+
+DATE=`date | awk '{print $3}'`
+NDATE=`date | awk '{print $2}'`
+NAME=$DATE$NDATE
+DIR=weather
+
+if [ ! -d "$DIR" ];
+then
+	mkdir $DIR
+fi
+
+cd $DIR
+touch $NAME
+echo "Cloning into ./weather"
+curl -m 30 "http://wttr.in/$city" -o $NAME
+#cat $NAME //if u want to see the weather immediately
+echo "Have a nice day! ʕ ᵔᴥᵔ ʔ"

@@ -1,0 +1,11 @@
+#ps - process status, it lists running processes.
+#a - show process of all users
+#x - oriented on the user format that giver more column, including user id and CPU/memory usage
+#u - show owner of process
+
+ps -A axu
+
+
+#or!
+#The top command is the  way to view system’s resource usage and see the processes that are taking up the most system resources. Top displays a list of processes, with the ones using the most CPU at the top.
+#top

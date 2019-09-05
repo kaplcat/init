@@ -1,0 +1,6 @@
+
+#u need to instal SSH by command:
+apt-get install openssh-server
+
+#to detrmine the state of SSH
+service ssh status

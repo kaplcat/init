@@ -1,0 +1,5 @@
+#df - shows disk space usage of file system
+# -h - human readable (sizes in powers of 1024)
+# --total - produce grand total
+
+df -h --total

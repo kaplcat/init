@@ -1,0 +1,4 @@
+#command: host [IP assigned by DHCP]
+#or: hostname 
+
+vo-j5.21-school.ru.

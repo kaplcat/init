@@ -1,0 +1,11 @@
+#Identify and display the Ethernet interface characteristics: (a) Identify broadcast address (b) Identify all IP adresses which are part of the same subnet
+
+#en0 is normally Ethernet, en1 normally Airport, but some computers will have more ethernet Ports end Airport moved up to en2, en3 etc
+
+# command a:
+ifconfig en0 | awk '/broadcast/{print $6}'
+# command b:
+ping -c 1 $(ifconfig en0 | awk '/broadcast/{print $6}') > /dev/null
+arp -a | awk '{print $2}'
+
+# ARP - Address Resolution Protocol, determine the MAC address of the Recipient in TCP / IP networks

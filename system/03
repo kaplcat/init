@@ -1,0 +1,2 @@
+#hostname is used to display the dns of the sysstem, if u want to set permanent its hostname change 
+/etc/hostname
